@@ -29,8 +29,11 @@ body {
   margin: 0 auto;
 
   padding: 2em;
+  /* ✅ Removed fixed height, fixes for text overflow */
 }
 
 .intro-content {
   max-width: 50%;
+  /* ❗️Added a max-width set to 50%, restrains text to 50% of parent area */
+  /* Suggested solution is to use width: 50% */
 }
