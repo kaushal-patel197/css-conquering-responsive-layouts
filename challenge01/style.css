@@ -26,6 +26,8 @@ body {
   color: white;
 
   width: 80%;
+  /* Great for large layouts, makes for a better user experience by restricting content from stretching too much */
+  max-width: 750px;
   margin: 0 auto;
 
   padding: 2em;
@@ -33,7 +35,7 @@ body {
 }
 
 .intro-content {
-  max-width: 50%;
+  width: 50%;
   /* ❗️Added a max-width set to 50%, restrains text to 50% of parent area */
   /* Suggested solution is to use width: 50% */
 }
