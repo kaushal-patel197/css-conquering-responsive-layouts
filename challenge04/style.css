@@ -41,9 +41,12 @@ h1 {
   margin: 0 auto;
 }
 
+section {
+  padding: 3em 0;
+}
+
 .row {
   display: flex;
-  padding: 3em 0;
 }
 
 .col {
@@ -56,9 +59,10 @@ h1 {
 }
 
 .hero {
-  padding: 100px 0;
+  padding: 6.25em 0;
   background-color: #23424a;
   color: #fff;
+  height: 100vh;
 }
 
 .hero__text {
@@ -69,7 +73,11 @@ h1 {
   margin-bottom: 3em;
 }
 
-section {
+.three-col h2 {
+  color: #87629a;
+}
+
+.two-col {
   background-color: #136c72;
   color: #fff;
 }
