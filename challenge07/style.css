@@ -1,0 +1,101 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.1rem;
+  font-weight: 200;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  height: 100vh;
+
+  padding: 10em;
+  text-align: center;
+
+  background-color: #f3eed9;
+  color: #824936;
+}
+
+.hero__text p {
+  font-size: 1.8rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  /* TODO: Add space between letters */
+}
+
+.hero__text h1 {
+  font-size: 6rem;
+  font-family: "Playfair Display";
+  font-weight: 900;
+}
+
+.intro {
+  margin: 5em auto;
+}
+
+.intro h2 {
+  text-align: center;
+
+  font-family: "Playfair Display";
+  font-size: 3.6rem;
+  font-weight: 900;
+
+  color: #824936;
+}
+
+.section {
+  padding: 2.5em;
+}
+
+.section img {
+  width: 40%;
+  align-self: flex-start;
+}
+
+.section__text {
+  width: 55%;
+}
+
+.section__text h2 {
+  margin-top: 0;
+
+  font-family: "Playfair Display";
+  font-size: 3.6rem;
+  color: #f3eed9;
+}
+
+.section__text p {
+  color: #fff;
+}
+
+.section__one {
+  background-color: #222c2a;
+}
+
+.section__two {
+  background-color: #824936;
+}
