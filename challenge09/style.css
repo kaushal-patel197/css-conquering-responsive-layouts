@@ -4,6 +4,77 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
 body {
   margin: 0;
+  font-family: "Montserrat";
+  font-size: 2.4rem;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 90%;
+}
+
+.row {
+  display: flex;
+}
+
+header {
+  background-color: #2e323f;
+}
+
+.hero {
+  background-color: #3b4050;
+  padding: 5em 0;
+}
+
+.hero__content {
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.hero__title {
+  margin: 0;
+  width: 50%;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-size: 9rem;
+  line-height: 1em;
+}
+
+.hero__title--accent {
+  color: #a59678;
+}
+
+.hero__text {
+  width: 45%;
+  color: #fff;
+}
+
+.hero__text p {
+  line-height: 1.75em;
+  margin-bottom: 1.5em;
+}
+
+.hero__text a {
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-size: 2.4rem;
+}
+
+.btn {
+  padding: 0.25em 1.5em;
+  background-color: #a59678;
+  border-radius: 100px;
 }
