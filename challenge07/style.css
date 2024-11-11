@@ -19,9 +19,18 @@ img {
   max-width: 100%;
 }
 
+h1,
+h2 {
+  font-family: "Playfair Display";
+  font-weight: 900;
+
+  margin-top: 0;
+  line-height: 1.1;
+}
+
 .container {
   width: 80%;
-  max-width: 1100px;
+  max-width: 1128px;
   margin: 0 auto;
 }
 
@@ -31,26 +40,27 @@ img {
 }
 
 .hero {
-  height: 100vh;
+  min-height: 100vh;
 
   padding: 10em;
   text-align: center;
 
   background-color: #f3eed9;
   color: #824936;
+
+  display: flex;
+  align-items: center;
 }
 
 .hero__text p {
   font-size: 1.8rem;
   font-weight: 200;
   text-transform: uppercase;
-  /* TODO: Add space between letters */
+  letter-spacing: 10px;
 }
 
 .hero__text h1 {
   font-size: 6rem;
-  font-family: "Playfair Display";
-  font-weight: 900;
 }
 
 .intro {
@@ -59,11 +69,7 @@ img {
 
 .intro h2 {
   text-align: center;
-
-  font-family: "Playfair Display";
   font-size: 3.6rem;
-  font-weight: 900;
-
   color: #824936;
 }
 
@@ -81,9 +87,6 @@ img {
 }
 
 .section__text h2 {
-  margin-top: 0;
-
-  font-family: "Playfair Display";
   font-size: 3.6rem;
   color: #f3eed9;
 }
