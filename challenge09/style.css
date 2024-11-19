@@ -30,13 +30,15 @@ a {
   display: flex;
 }
 
+/* Header/Nav */
 header {
   background-color: #2e323f;
 }
 
+/* Hero Styles */
 .hero {
   background-color: #3b4050;
-  padding: 5em 0;
+  padding: 15rem 0;
 }
 
 .hero__content {
@@ -64,7 +66,7 @@ header {
 
 .hero__text p {
   line-height: 1.75em;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5rem;
 }
 
 .hero__text a {
@@ -77,4 +79,27 @@ header {
   padding: 0.25em 1.5em;
   background-color: #a59678;
   border-radius: 100px;
+}
+
+/* Section One */
+.section-one {
+  background-color: #f1f1f1;
+  padding: 10rem 0;
+}
+
+.section-one__content {
+  text-align: center;
+  gap: 3rem;
+}
+
+.section-one__title {
+  margin: 0;
+  color: #a59678;
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
+}
+
+.section-one__text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
 }
