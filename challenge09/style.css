@@ -180,7 +180,29 @@ footer h2 {
   font-size: 6.4rem;
 }
 
+footer h3 {
+  margin: 0;
+  color: #a59678;
+  font-family: "Oswald";
+  font-size: 2.1rem;
+}
+
+footer p {
+  color: #f1f1f1;
+  font-family: "Montserrat";
+  font-size: 1.6rem;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  color: #f1f1f1;
+  font-family: "Montserrat";
+  font-size: 1.6rem;
+}
+
 .footer__content {
+  margin: 5rem 0;
   justify-content: space-between;
 }
 
